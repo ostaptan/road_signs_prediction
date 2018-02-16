@@ -32,8 +32,8 @@ def load_data(data_directory):
 # ---
 # Step 1. PREPARE DATA =======================================
 ROOT_PATH = sys.path[0]
-training_data_directory = os.path.join(ROOT_PATH, 'Training')
-testing_data_directory = os.path.join(ROOT_PATH, 'Testing')
+training_data_directory = os.path.join(ROOT_PATH, 'data/Training')
+testing_data_directory = os.path.join(ROOT_PATH, 'data/Testing')
 
 images, labels = load_data(training_data_directory)
 # Get the unique labels
