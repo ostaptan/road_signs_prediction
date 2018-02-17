@@ -5,7 +5,7 @@ Road signs prediction tensorflow model
 
 - Download [test data](http://btsd.ethz.ch/shareddata/); you need 2 files which are called "BelgiumTSC_Training" and "BelgiumTSC_Testing".
 
-- Paste extracted data to /data folder
+- Paste 2 extracted folders into /data folder
 
 - Run ```python3 main.py```
 
